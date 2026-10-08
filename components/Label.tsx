@@ -37,11 +37,13 @@ export const Label: React.FC<LabelProps> = ({ product }) => {
       <div className="relative z-20 text-center border-b-2 border-wood-900 pb-2 mb-4 pt-2">
         <div className="flex justify-center mb-1">
              {/* Logo Placeholder - Simulating the 'W' from image */}
-             <div className="text-4xl font-serif font-bold text-wood-900">W</div>
+             <div className="text-4xl font-serif font-bold text-wood-900">
+              <img src="./images/wood-logo.png" alt="icon" width="250" />
+             </div>
         </div>
-        <h1 className="text-2xl font-serif tracking-widest text-wood-900 font-bold uppercase">
+        {/* <h1 className="text-2xl font-serif tracking-widest text-wood-900 font-bold uppercase">
           WOOD DEKOR
-        </h1>
+        </h1> */}
         <p className="font-script text-gray-600 text-lg -mt-1">
           "Transforming houses into homes"
         </p>

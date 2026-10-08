@@ -34,7 +34,10 @@ jobs:
 
       - name: Build
         run: npm run build -- --base=/wood-dekor-label-automator/
-
+        
+      - name: Copy images
+        run: cp -r images dist/images
+        
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

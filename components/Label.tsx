@@ -83,7 +83,7 @@ export const Label: React.FC<LabelProps> = ({ product }) => {
       {/* Footer / GST */}
       <div className="relative z-20 mt-auto text-center">
         <p className="text-red-600 font-bold text-xs uppercase tracking-wide">
-          Prices are Inclusive of GST @{gst_percentage}%
+          GST Extra @ {gst_percentage}%
         </p>
       </div>
 
